@@ -21,7 +21,7 @@ python-docx==1.1.2
 pyyaml
 requests
 rich
-safetensors==0.7.*
+safetensors==0.8.*
 scipy
 sentencepiece
 tensorboard
