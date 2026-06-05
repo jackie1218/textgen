@@ -5,7 +5,7 @@ datasets
 ddgs==9.14.1
 diffusers==0.38.*
 einops
-fastapi==0.136.3
+fastapi==0.112.4
 flash-linear-attention==0.5.*
 huggingface-hub==1.18.*
 jinja2==3.1.6
