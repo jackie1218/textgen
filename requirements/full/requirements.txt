@@ -3,11 +3,11 @@ audioop-lts<1.0; python_version >= "3.13"
 bitsandbytes==0.49.*
 datasets
 ddgs==9.14.1
-diffusers==0.37.*
+diffusers==0.38.*
 einops
-fastapi==0.112.4
-flash-linear-attention==0.4.*
-huggingface-hub==1.5.*
+fastapi==0.136.3
+flash-linear-attention==0.5.*
+huggingface-hub==1.18.*
 jinja2==3.1.6
 markdown
 mcp==1.27.0
@@ -25,14 +25,14 @@ safetensors==0.7.*
 scipy
 sentencepiece
 tensorboard
-torchao==0.15.*
+torchao==0.17.*
 trafilatura==2.0.0
-transformers==5.6.*
-triton-windows==3.5.1.post24; platform_system == "Windows"
+transformers==5.10.*
+triton-windows==3.7.0.post26; platform_system == "Windows"
 tqdm
 wandb
-https://download.pytorch.org/whl/cu128/xformers-0.0.33-cp39-abi3-manylinux_2_28_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64"
-https://download.pytorch.org/whl/cu128/xformers-0.0.33-cp39-abi3-win_amd64.whl; platform_system == "Windows"
+https://download.pytorch.org/whl/cu128/xformers-0.0.35-py39-none-manylinux_2_28_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64"
+https://download.pytorch.org/whl/cu128/xformers-0.0.35-py39-none-win_amd64.whl; platform_system == "Windows"
 
 # Gradio
 https://github.com/oobabooga/gradio/releases/download/4.37.2-custom.21/gradio-4.37.2+custom.21-py3-none-any.whl
@@ -48,7 +48,7 @@ https://github.com/oobabooga/llama-cpp-binaries/releases/download/v0.138.0/llama
 https://github.com/oobabooga/llama-cpp-binaries/releases/download/v0.138.0/llama_cpp_binaries-0.138.0+cu124-py3-none-linux_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64"
 https://github.com/oobabooga/llama-cpp-binaries/releases/download/v0.138.0/ik_llama_cpp_binaries-0.138.0+cu124-py3-none-win_amd64.whl; platform_system == "Windows"
 https://github.com/oobabooga/llama-cpp-binaries/releases/download/v0.138.0/ik_llama_cpp_binaries-0.138.0+cu124-py3-none-linux_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64"
-https://github.com/turboderp-org/exllamav3/releases/download/v0.0.34/exllamav3-0.0.34+cu128.torch2.9.0-cp313-cp313-win_amd64.whl; platform_system == "Windows" and python_version == "3.13"
-https://github.com/turboderp-org/exllamav3/releases/download/v0.0.34/exllamav3-0.0.34+cu128.torch2.9.0-cp313-cp313-linux_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64" and python_version == "3.13"
+https://github.com/turboderp-org/exllamav3/releases/download/v0.0.39/exllamav3-0.0.39+cu128.torch2.9.0-cp313-cp313-win_amd64.whl; platform_system == "Windows" and python_version == "3.13"
+https://github.com/turboderp-org/exllamav3/releases/download/v0.0.39/exllamav3-0.0.39+cu128.torch2.9.0-cp313-cp313-linux_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64" and python_version == "3.13"
 https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.7.13/flash_attn-2.8.3+cu128torch2.9-cp313-cp313-win_amd64.whl; platform_system == "Windows" and python_version == "3.13"
-https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.0/flash_attn-2.8.3+cu128torch2.9-cp313-cp313-linux_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64" and python_version == "3.13"
+https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.33/flash_attn-2.7.4+cu126torch2.11-cp313-cp313-linux_x86_64.whl; platform_system == "Linux" and platform_machine == "x86_64" and python_version == "3.13"
